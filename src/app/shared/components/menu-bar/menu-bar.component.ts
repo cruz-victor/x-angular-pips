@@ -31,7 +31,13 @@ export class MenuBarComponent implements OnInit {
       {
         label: 'Pipes personalizados',
         icon: PrimeIcons.CODE,
-        items: [{ label: 'Otro elemento', icon: PrimeIcons.COG }],
+        items: [
+          {
+            label: 'Custom pipes',
+            icon: PrimeIcons.COG,
+            routerLink: 'custom',
+          },
+        ],
       },
     ];
   }
